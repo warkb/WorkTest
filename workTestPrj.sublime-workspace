@@ -1,0 +1,2179 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cont",
+				"align-content\tproperty"
+			],
+			[
+				"tr",
+				"translateY()\ttransform"
+			],
+			[
+				"baco",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"pur",
+				"purchase"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"mod",
+				"model"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"sys",
+				"system〔function〕"
+			],
+			[
+				"ipv",
+				"ipv6Dut"
+			],
+			[
+				"ipv6",
+				"ipv6Dut"
+			],
+			[
+				"pa",
+				"parmsOfSettings〔variable〕"
+			],
+			[
+				"wa",
+				"warning〔module〕"
+			],
+			[
+				"ri",
+				"right\t Style CSS"
+			],
+			[
+				"fun",
+				"function_with_name"
+			],
+			[
+				"ve",
+				"vec"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"s",
+				"sqrt〔function〕"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Objr",
+				"Object_defineProperty\t( o: Object, p: string, attrs: any ): Object Object"
+			],
+			[
+				"def",
+				"defineProperty\t( o: Object, p: string, attrs: any ): Object Object"
+			],
+			[
+				"draw",
+				"drawTable"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"fu",
+				"function_with_name"
+			],
+			[
+				"Mo",
+				"MOUNTAINS"
+			],
+			[
+				"data",
+				"dataTable"
+			],
+			[
+				"he",
+				"headers"
+			],
+			[
+				"n",
+				"name\t: DOMString File"
+			],
+			[
+				"func",
+				"function_without_name"
+			],
+			[
+				"Obj",
+				"Object〔class〕"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"min",
+				"minHeight\t = '' Style CSS"
+			],
+			[
+				"Un",
+				"UnderlinedCell"
+			],
+			[
+				"dra",
+				"drawTable"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"Text",
+				"TextCell"
+			],
+			[
+				"block",
+				"blocks"
+			],
+			[
+				"bloc",
+				"blocks"
+			],
+			[
+				"blo",
+				"blocks"
+			],
+			[
+				"row",
+				"rowHeights"
+			],
+			[
+				"su",
+				"sum"
+			],
+			[
+				"sha",
+				"sharedDNA"
+			],
+			[
+				"redu",
+				"reduceAncestors"
+			],
+			[
+				"fro",
+				"fromMother"
+			],
+			[
+				"defaultV",
+				"defaultValue"
+			],
+			[
+				"show",
+				"showHardwareOut〔variable〕"
+			],
+			[
+				"r",
+				"randint"
+			],
+			[
+				"par",
+				"parse\t( json: string ): any JSON"
+			],
+			[
+				"ret",
+				"returnValue"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"adm",
+				"adminKey〔argument〕"
+			],
+			[
+				"po",
+				"portChannel〔argument〕"
+			],
+			[
+				"port",
+				"portCli〔variable〕"
+			],
+			[
+				"por",
+				"portCli〔variable〕"
+			],
+			[
+				"set",
+				"settings〔module〕"
+			],
+			[
+				"cl",
+				"class〔keyword〕"
+			],
+			[
+				"ha",
+				"hal_selector〔module〕"
+			],
+			[
+				"fo",
+				"force〔variable〕"
+			],
+			[
+				"dt",
+				"dtype"
+			],
+			[
+				"int",
+				"int32"
+			],
+			[
+				"se",
+				"self〔argument〕"
+			],
+			[
+				"ge",
+				"getForceVector〔function〕"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"zer",
+				"zeroPotencial〔variable〕"
+			],
+			[
+				"get",
+				"getPotencial〔function〕"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"sta",
+				"stars"
+			],
+			[
+				"fp",
+				"fpsArr〔variable〕"
+			],
+			[
+				"tim",
+				"timeit"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"pr",
+				"print〔keyword〕"
+			],
+			[
+				"ti",
+				"time〔module〕"
+			],
+			[
+				"lo",
+				"localTime〔variable〕"
+			],
+			[
+				"ma",
+				"maxCount"
+			],
+			[
+				"co",
+				"cou"
+			],
+			[
+				"retu",
+				"returnR2Vector〔function〕"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"st",
+				"stars〔argument〕"
+			],
+			[
+				"ini",
+				"initDistance〔variable〕"
+			],
+			[
+				"ba",
+				"backgroundColor〔variable〕"
+			],
+			[
+				"run",
+				"running〔variable〕"
+			],
+			[
+				"new",
+				"networkArr〔variable〕"
+			],
+			[
+				"net",
+				"networkIndStart〔variable〕"
+			],
+			[
+				"da",
+				"dataArr〔variable〕"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"cu",
+				"curLoad〔variable〕"
+			],
+			[
+				"tm",
+				"tmpLoad〔variable〕"
+			],
+			[
+				"cur",
+				"curSubTest〔variable〕"
+			],
+			[
+				"tes",
+				"testShowed〔variable〕"
+			],
+			[
+				"tmp",
+				"tmpTest"
+			],
+			[
+				"res",
+				"resultLogArr〔variable〕"
+			],
+			[
+				"fi",
+				"firstServerFacilityNum〔variable〕"
+			],
+			[
+				"log",
+				"loggingLevelList〔variable〕"
+			],
+			[
+				"fir",
+				"firstServerLevelNum〔variable〕"
+			],
+			[
+				"fac",
+				"facilityList〔variable〕"
+			],
+			[
+				"glo",
+				"globalFacility〔variable〕"
+			],
+			[
+				"gl",
+				"globalFacilityNum〔variable〕"
+			],
+			[
+				"о",
+				"отрабатывает"
+			],
+			[
+				"ran",
+				"randint〔module〕"
+			],
+			[
+				"rando",
+				"randomTimeout"
+			],
+			[
+				"тай",
+				"таймаут"
+			],
+			[
+				"time",
+				"timeout"
+			],
+			[
+				"aut",
+				"authCli〔variable〕"
+			],
+			[
+				"A",
+				"Add"
+			],
+			[
+				"T",
+				"SetTacacsServerHost〔function〕"
+			],
+			[
+				"au",
+				"authCli〔variable〕"
+			],
+			[
+				"com",
+				"comand"
+			],
+			[
+				"rea",
+				"realTimeout"
+			],
+			[
+				"P",
+				"PIPE〔variable〕"
+			],
+			[
+				"C",
+				"Compare〔function〕"
+			],
+			[
+				"S",
+				"SystemCli〔class〕"
+			],
+			[
+				"en",
+				"encryptRadiusKey〔variable〕"
+			],
+			[
+				"rad",
+				"radCli〔variable〕"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"no",
+				"now"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "workTest/settings.py",
+			"settings":
+			{
+				"buffer_size": 3107,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "workTest/urls.py",
+			"settings":
+			{
+				"buffer_size": 831,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mainpage/urls.py",
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mainpage/templates/mainpage/authpage.html",
+			"settings":
+			{
+				"buffer_size": 625,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"ad",
+				"Git: Add..."
+			],
+			[
+				"pu",
+				"Git: Pull"
+			],
+			[
+				"re",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"cha",
+				"Git: Change Branch"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"curr",
+				"Git: Diff Current File (Ignore Whitespace)"
+			],
+			[
+				"com\t",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"codein",
+				"SublimeCodeIntel: Dump Import Directories"
+			],
+			[
+				"code in",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"a",
+				"Git: Add..."
+			],
+			[
+				"push ",
+				"Git: Push Current Branch"
+			],
+			[
+				"ch",
+				"Git: Change Branch"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"new ",
+				"Git: New Branch"
+			],
+			[
+				"current ",
+				"Git: Diff Current File"
+			],
+			[
+				"bra",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"stat",
+				"Indexing Status"
+			],
+			[
+				"pul",
+				"Git: Pull"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"ad.",
+				"Git: Add..."
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"git add.",
+				"Git: Add..."
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"mer",
+				"Git: Merge Branch"
+			],
+			[
+				"git com\t",
+				"Git: Commit"
+			],
+			[
+				"add..",
+				"Git: Add..."
+			],
+			[
+				"change",
+				"Git: Change Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git add..",
+				"Git: Add..."
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git di",
+				"Git: Diff All Files"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"git:  ",
+				"Git: Status"
+			],
+			[
+				"git:  che",
+				"Git: Change Branch"
+			],
+			[
+				"git:  s",
+				"Git: Status"
+			],
+			[
+				"git:  com",
+				"Git: Commit"
+			],
+			[
+				"git:  push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git:  pus",
+				"Git: Push"
+			],
+			[
+				"git:  add",
+				"Git: Add..."
+			],
+			[
+				"git ",
+				"Git: Change Branch"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Pull"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Change Branch"
+			],
+			[
+				"git checkout",
+				"Git: Checkout Tag"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git A",
+				"Git: Add..."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Tasks",
+				"Tasks: New document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git: chec",
+				"Git: Change Branch"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Remove Package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest",
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest/mainpage",
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest/mainpage/templates",
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest/mainpage/templates/mainpage",
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest/workTest"
+	],
+	"file_history":
+	[
+		"/C/Users/WarKB/Desktop/PersonalProjects/workTest/mainpage/templates/authpage.html",
+		"/C/Users/WarKB/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/WarKB/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/WarKB/Desktop/PersonalProjects/ForNodeJs/angularjs.todo",
+		"/C/Users/WarKB/Desktop/PersonalProjects/ForNodeJs/template.html",
+		"/C/Users/WarKB/Desktop/PersonalProjects/ForNodeJs/ss.js",
+		"/C/Users/WarKB/Desktop/PersonalProjects/MyTwitter/myTwitter/currentTask.todo",
+		"/C/Users/WarKB/Desktop/PersonalProjects/MyTwitter/myTwitter/mainpage/templates/mainpage/mainpage.html",
+		"/C/Users/WarKB/Documents/MyLife/SMART.txt",
+		"/C/Users/WarKB/Desktop/PersonalProjects/MyTwitter/myTwitter/mainpage/views.py",
+		"/C/Users/WarKB/Desktop/PersonalProjects/MyTwitter/myTwitter/mainpage/static/mainpage/style.css",
+		"/C/Users/WarKB/Desktop/PersonalProjects/MyTwitter/myTwitter/myTwitter/urls.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/system/system_aging_time.py",
+		"/home/kurbatovbn/PrivateProjects/JustJS/virtualEcoSystem.js",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/vlan/vlan_mac_in_uncreated_vlan.py",
+		"/home/kurbatovbn/git/ETPv3/settingsFiller.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/settings.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/port_security/port_security_limit_mac_addr.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/warning.py",
+		"/home/kurbatovbn/PrivateProjects/JustJS/learning.html",
+		"/home/kurbatovbn/PrivateProjects/JustJS/learning.js",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/igmp/igmp_group_join.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_traffic_shape 2018-03-27 09:46:33",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/aaa/aaa_check_timeout.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/packets/sniffer.py",
+		"/home/kurbatovbn/PrivateProjects/JustJS/learning_drawMountains.js",
+		"/home/kurbatovbn/PrivateProjects/Universe/run.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/port/port_cli.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/lacp/lacp_check_bug_13638.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/lldp/lldp_med.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/ResultsLog.log",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.lldp.lldp_med 2018-03-26 08:34:08",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/port/port_channel_cli.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/lacp/__init__.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/acl/acl_base.py",
+		"/home/kurbatovbn/git/ETPv3/getRunResult.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/system/system_cli.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.system.system_aging_time 2018-03-19 09:27:44",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/env/lib/python2.7/site-packages/pip/_vendor/pyparsing.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/env/lib/python2.7/site-packages/numpy/ma/core.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.vlan.vlan_base 2018-03-16 16:16:23",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/auth.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/access/com.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/syslog/syslog_proxy_cli.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/system/system_config.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/syslog/syslog_every_server.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tmp.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_check_timeout 2018-03-06 10:29:44",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_check_timeout 2018-03-06 10:43:50",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/radius.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_check_timeout 2018-03-06 10:09:29",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/init_subtest.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_check_timeout 2018-03-06 09:07:20",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/start/start_self_test.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_fastpath/system.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_check_timeout 2018-03-01 10:38:00",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/aaa/aaa_tacacs_plus.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dscp 2018-02-28 08:56:12",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_dont_trust 2018-02-28 09:51:20",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_del_default_users 2018-02-27 10:06:26",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/admin/base_site.html",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/mysite/settings.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/admin.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/models.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/mysite/urls.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/urls.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/pols/index.html",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/static/pols/style.css",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/readme.txt",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/pols/detail.html",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/pols/results.html",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/tests.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/views.py",
+		"/home/kurbatovbn/git/ETPv3/getAllTestsInFolder.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.aaa.aaa_tacacs_plus 2018-02-22 14:20:03",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/__init__.py",
+		"/home/kurbatovbn/YaDisk/OpenDev/questions.todo",
+		"/home/kurbatovbn/YaDisk/OpenDev/answers.txt",
+		"/home/kurbatovbn/tmp.py",
+		"/home/kurbatovbn/YaDisk/OpenDev/RESTfulAPIDesigningGuidelines_en.txt",
+		"/home/kurbatovbn/YaDisk/OpenDev/RESTfulAPIDesigningGuidelines_ru.txt",
+		"/home/kurbatovbn/YaDisk/OpenDev/mock_ru.txt",
+		"/home/kurbatovbn/YaDisk/OpenDev/mock_en.txt",
+		"/home/kurbatovbn/workspace/usefullScripts/fillUpTrapLog.py",
+		"/home/kurbatovbn/tmp/after100",
+		"/home/kurbatovbn/tmp/before100",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/dual_start.py",
+		"/home/kurbatovbn/tmp/after",
+		"/home/kurbatovbn/tmp/before",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/aaa/aaa_tacacs_auth.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/logging/logging_wrong_message.py",
+		"/home/kurbatovbn/Downloads/answers.txt",
+		"/home/kurbatovbn/Downloads/questions.todo",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/system/system_table_network.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 13:32:55",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/services/dhcp/dhcp_server.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 14:10:42",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/linux/system.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/dhcp/dhcp_support.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/env/lib/python2.7/site-packages/trollius/base_events.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 13:15:12",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 11:27:39",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 11:13:34",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 10:59:12",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 11:20:47",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-13 11:25:50",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-12 10:21:59",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/ip.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/comparison.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-06 09:59:21",
+		"/home/kurbatovbn/AutomatPython/archive/questions.todo",
+		"/home/kurbatovbn/AutomatPython/archive/answers.txt",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-05 10:39:35",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-05 10:41:57",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-05 09:13:11",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-05 08:53:10",
+		"/run/media/kurbatovbn/C0FC-B943/OpenDev/answers.txt",
+		"/run/media/kurbatovbn/C0FC-B943/OpenDev/questions.todo",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-02-02 10:32:25",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/pppoe/pppoe_add_checking_mode.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/acl/acl_working_without.py",
+		"/home/tftp/test.jpg",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/system/system_table_routes.py",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-01-30 15:51:28",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-01-30 14:49:43",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-01-30 11:01:22",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-01-30 10:23:27",
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.dhcp.dhcp_support 2018-01-30 09:35:34"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/Pyt,/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/Pyt,/home/kurbatovbn/git/ETPv3/PythonTestProject/utilities/start",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/linux",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/linux",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/files/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/load",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal",
+			"/home/kurbatovbn/git/ETPv3/PythonTestProject"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\\\",
+			"\\\\\\\\",
+			"/",
+			"\\\\",
+			"\\\\\\\\",
+			"\\n",
+			"^\\n",
+			"^",
+			"^\\d",
+			"LearnMacInUncreatedVlan_7476_1",
+			"CheckChangeMaxDinamic_6456_4",
+			"KnownBug",
+			"CheckInstallAgingTime_10648_1",
+			"-",
+			"addport",
+			"port-channel",
+			"addport",
+			"utilities.warning",
+			"CurrentSprint",
+			"port-channel",
+			"lacp",
+			"np.array",
+			"CheckDisableAgingTime_10648_2",
+			"\n",
+			"3e",
+			"raw_",
+			"print",
+			"tacacs-server timeout",
+			"print",
+			"randomTimeot",
+			"radius server timeout",
+			"clear",
+			"toWaitResponse",
+			"aaa authentication login",
+			"radius server host auth",
+			"CheckSetNonStandartPortWeb_8510_2",
+			"\n\n",
+			"\n",
+			"#",
+			"__CheckNetworkSettingsOnSwitch",
+			"echo",
+			"~$",
+			"$",
+			"[править | править код]",
+			"#",
+			"5407",
+			"[\\d+\\d]",
+			"\\d",
+			"#",
+			"killall telnet",
+			"#",
+			"DhcpServerService",
+			"Enable",
+			"forwarding",
+			"\n",
+			"eth0",
+			")\n",
+			"print",
+			"vot",
+			"networkTable",
+			"network",
+			"Проверим, что появился  Ipv6 адресс из подсети,",
+			"network ipv6 address autoconfig",
+			"CheckWorkingWihoutAcl_13521_1",
+			"print",
+			"CheckSendInventoryTLV_12762_1",
+			"GetIpv4AndGwWithStaticGwPart2_12998_5",
+			"print",
+			"Проверяем, что в таблице маршрутизации на коммутаторе дефолтный маршрут только один и он для интерфейса additional",
+			"NetworkRoutesTable",
+			"mask",
+			"DRY",
+			"\n",
+			"/* */",
+			"ipCompAddres1",
+			"pyshark",
+			"logging cli-command",
+			"logging host",
+			"logging syslog facility",
+			"logging syslog",
+			"show",
+			"con",
+			"pppoe untrust vendor-tag drop",
+			"pppoe ",
+			"pppoe untrust ",
+			"pppoe untrust vendor-tag ",
+			"pppoe untrust vendor-tag forward",
+			"HexPacket",
+			"hex",
+			"pppoe trust",
+			"pppoe frmtstr",
+			"|",
+			"Сц",
+			"задачи",
+			"ProtectionAgainstDHCPv4ClientPackets_5648_9_10",
+			"CFE> ",
+			"print",
+			"ip dhcp snooping",
+			"show ip arp inspection",
+			"show ip arp inspection ",
+			"ip arp inspection vlan",
+			"ip arp inspection",
+			"arp access-list",
+			"QoSGlobalSettings_5894_1",
+			"☐",
+			")\n",
+			"Counters comparison #2",
+			"Counters comparison #1",
+			"QosTrustTable",
+			"__modeToStr",
+			"ArpInspectionSnmpBase_5410_7_2",
+			"transmit-mgmt",
+			"'|||'",
+			"getoutput",
+			"expected string without null bytes",
+			"hex",
+			"snmp",
+			"x",
+			"snmp.Send",
+			"True",
+			"EnableLoggingPermanent",
+			"qos_trust_dot1p",
+			"VlanBasedAnd8021p_5894_4",
+			"[а-я]+[ ,]+",
+			"QoSRemarkingAnd8021p_5894_5",
+			"classofservice trust dot1p",
+			"\\w+\\.\\w+\\.\\w+",
+			"\\w.\\w.\\w"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"/",
+			"\\\\\\\\",
+			"\\\\",
+			"/",
+			"",
+			"DhcpServerServiceV1dot0",
+			"qosTrustTable",
+			"__ModeToStr",
+			"self.vlan",
+			"",
+			"аутентификация",
+			"tests/dhcp/dhcp_support/",
+			"    ",
+			"|Написать",
+			"self.com",
+			"self.dhcpCli",
+			"self.sysCli",
+			"    ",
+			"snif2",
+			"    ",
+			"__FormIgmpPack",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "workTest/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "workTest/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mainpage/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mainpage/templates/mainpage/authpage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										599,
+										600
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										284,
+										285
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 132.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 132.0
+	},
+	"output.exec":
+	{
+		"height": 284.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 452.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "workTestPrj.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"set",
+				"settings.py"
+			],
+			[
+				"",
+				"settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\WarKB\\Desktop\\PersonalProjects\\LabirintJs\\labirintJs.sublime-project"
+			],
+			[
+				"d",
+				"~YaDisk/DjangoProjects/DjangoProjects.sublime-project"
+			],
+			[
+				"D",
+				"~YaDisk/DjangoProjects/DjangoProjects.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
