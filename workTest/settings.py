@@ -24,7 +24,7 @@ SECRET_KEY = 'b5xd#@&#!7ht91(_zz)1d2r_rdcpa%4+@a-5v*==-y07&*r127'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://warkb.pythonanywhere.com']
 
 
 # Application definition
