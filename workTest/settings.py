@@ -38,13 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainpage',
-    'social.apps.django_app.default',
 ]
 
-AUTHENTICATION_BACKENDS = (
-    'social_auth.backends.contrib.vkontakte.VKontakteOAuth2Backend',
-    'django.contrib.auth.backends.ModelBackend',
-)
+# AUTHENTICATION_BACKENDS = (
+#     'social_auth.backends.contrib.vkontakte.VKontakteOAuth2Backend',
+#     'django.contrib.auth.backends.ModelBackend',
+# )
 
 # данные для вк
 VK_APP_ID = '6481880'
@@ -59,17 +58,17 @@ SOCIAL_AUTH_STRATEGY = 'social.strategies.django_strategy.DjangoStrategy'
 SOCIAL_AUTH_STORAGE = 'social.apps.django_app.default.models.DjangoStorage'
 
 
-SOCIAL_AUTH_PIPELINE = (
-    'social.pipeline.social_auth.social_details',
-    'social.pipeline.social_auth.social_uid',
-    'social.pipeline.social_auth.auth_allowed',
-    'social.pipeline.social_auth.social_user',
-    'social.pipeline.user.get_username',
-    'my.social.save_profile',  # <--- тут наш метод, работающий с социальной авторизацией
-    'social.pipeline.social_auth.associate_user',
-    'social.pipeline.social_auth.load_extra_data',
-    'social.pipeline.user.user_details',
-)
+# SOCIAL_AUTH_PIPELINE = (
+#     'social.pipeline.social_auth.social_details',
+#     'social.pipeline.social_auth.social_uid',
+#     'social.pipeline.social_auth.auth_allowed',
+#     'social.pipeline.social_auth.social_user',
+#     'social.pipeline.user.get_username',
+#     'my.social.save_profile',  # <--- тут наш метод, работающий с социальной авторизацией
+#     'social.pipeline.social_auth.associate_user',
+#     'social.pipeline.social_auth.load_extra_data',
+#     'social.pipeline.user.user_details',
+# )
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
