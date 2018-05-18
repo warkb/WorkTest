@@ -24,7 +24,8 @@ SECRET_KEY = 'b5xd#@&#!7ht91(_zz)1d2r_rdcpa%4+@a-5v*==-y07&*r127'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['warkb.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost',
+'warkb.pythonanywhere.com',]
 
 
 # Application definition
@@ -37,7 +38,38 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainpage',
+    'social.apps.django_app.default',
 ]
+
+AUTHENTICATION_BACKENDS = (
+    'social_auth.backends.contrib.vkontakte.VKontakteOAuth2Backend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+# данные для вк
+VK_APP_ID = '6481880'
+VK_API_SECRET = 'VgrTmwquRc6yaCCPiHc1'
+
+SOCIAL_AUTH_VK_OAUTH2_KEY = '6481880'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = 'VgrTmwquRc6yaCCPiHc1'
+SOCIAL_AUTH_LOGIN_URL = '/goauth'  # тут ваш url для калбека
+SOCIAL_AUTH_USER_MODEL = 'mainpage.User'  # ваша кастомная модель пользователя
+SOCIAL_AUTH_UID_LENGTH = 223
+SOCIAL_AUTH_STRATEGY = 'social.strategies.django_strategy.DjangoStrategy'
+SOCIAL_AUTH_STORAGE = 'social.apps.django_app.default.models.DjangoStorage'
+
+
+SOCIAL_AUTH_PIPELINE = (
+    'social.pipeline.social_auth.social_details',
+    'social.pipeline.social_auth.social_uid',
+    'social.pipeline.social_auth.auth_allowed',
+    'social.pipeline.social_auth.social_user',
+    'social.pipeline.user.get_username',
+    'my.social.save_profile',  # <--- тут наш метод, работающий с социальной авторизацией
+    'social.pipeline.social_auth.associate_user',
+    'social.pipeline.social_auth.load_extra_data',
+    'social.pipeline.user.user_details',
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
