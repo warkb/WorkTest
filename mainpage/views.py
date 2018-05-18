@@ -8,15 +8,16 @@ def index(request):
     return HttpResponse(template.render())
 
 def getUser(request):
+    print(']]]]]]]]]]]]]]]]]]]]]]]')
     print(request.GET)
-    HttpResponse('|-|'.join(request.GET))
+    return HttpResponse('|-|'.join(request.GET))
 
 def clearRequest(request):
     # передать запрос как он есть
     print(request.get_full_path())
     return redirect('http://' + request.get_full_path()[1:])
 
-# Запрос навсех друзей по id
+# Запрос на всех друзей по id
 # https://vk.com/dev/friends.get?params[user_id]=263728812&params[order]=name&params[count]=5&params[offset]=2&params[fields]=name&params[name_case]=nom&params[v]=5.75
 
 # информация по пользователю
