@@ -9,6 +9,7 @@ def index(request):
 
 def getUser(request):
     print(request.GET)
+    HttpResponse('|-|'.join(request.GET))
 
 def clearRequest(request):
     # передать запрос как он есть
