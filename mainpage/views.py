@@ -1,26 +1,49 @@
+import json
+import urllib
 from django.template import RequestContext, loader
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import redirect
+
+profile_request = 'https://api.vk.com/method/users.get?user_ids={user_id}&v=5.75'
+friends_request = 'https://api.vk.com/method/friends.get?user_id={user_id}&order=name&count=5&offset=2&fields=name&name_case=nom&v=5.75'
+
+def sendRequestToApiVK(request, access_token):
+    """отправляет запрос request к api vk, возвращает результат запроса"""
+    response = urllib.request.urlopen(request + '&access_token=' + access_token + '&v=V')
+    return decodeResponse(response)
+
+def decodeResponse(response):
+    """преобразует объект response в json"""
+    json_response = json.loads(response.read().decode())
+    return json_response['response']
 
 # Create your views here.
 def index(request):
     template = loader.get_template('mainpage/authpage.html')
     return HttpResponse(template.render())
 
-def getUser(request):
-    print(']]]]]]]]]]]]]]]]]]]]]]]')
-    print(request.GET)
-    return HttpResponse('|-|'.join([request.GET['uid'], request.GET['first_name'], request.GET['last_name']]))
+def userpage(request):
+    user_id = request.GET['user_id']
+    access_token = request.GET['access_token']
+    profileDict = sendRequestToApiVK(profile_request.format(user_id=user_id),
+        access_token)[0]
+    username = profileDict[0]['first_name'] + ' ' + profileDict[0]['last_name']
+    friendsDict = sendRequestToApiVK(friends_request.format(user_id=user_id), 
+        access_token)
+    friendsCSV = ','.join([friend['last_name'] + ' ' + 
+        friend['first_name'] for friend in x])
+
+    return HttpResponse('user_id: %s<br>token: %s<br>username: %s<br>friends: %s<br>' % (user_id, 
+        access_token, username, friendsCSV))
 
 def clearRequest(request):
     # передать запрос как он есть
     print(request.get_full_path())
     return redirect('http://' + request.get_full_path()[1:])
 
-# Запрос на всех друзей по id
-# https://vk.com/dev/friends.get?params[user_id]=263728812&params[order]=name&params[count]=5&params[offset]=2&params[fields]=name&params[name_case]=nom&params[v]=5.75
+# Запрос на друзей по id
 
-# информация по пользователю
-# http://warkb.pythonanywhere.com/dev/Login?uid=263728812&first_name=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BCip%D1%8A&last_name=%D0%9A%D1%83%D1%80%D0%B1%D0%B0%D1%82%D0%BE%D0%B2%D1%8A&photo=https://pp.userapi.com/c629519/v629519812/b7ef/Qxdc1Jjz7b0.jpg&photo_rec=https://pp.userapi.com/c629519/v629519812/b7f2/qz4Pj1aONO0.jpg&hash=37587e7323e2e7c450d570ac0adc74e5
+# https://api.vk.com/method/friends.get?user_id=263728812&order=name&count=5&offset=2&fields=name&name_case=nom&v=5.75&access_token=8c64f1b2ee1896c56b6e96bc61932957a24091ee0833cffa8b9681589e6486100fcbb29896995fe542dce&v=V 
 
-# https://api.vk.com/method/friends.get?params[user_id]=263728812&params[order]=name&params[count]=5&params[offset]=2&params[fields]=name&params[name_case]=nom&params[v]=5.75
+# getProf
+# https://api.vk.com/method/users.get?user_ids=263728812&v=5.75&access_token=8c64f1b2ee1896c56b6e96bc61932957a24091ee0833cffa8b9681589e6486100fcbb29896995fe542dce&v=V
