@@ -4,6 +4,10 @@ from django.template import RequestContext, loader
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import redirect
 
+app_id = '6481880'
+app_secret = 'VgrTmwquRc6yaCCPiHc1'
+
+token_request = 'https://oauth.vk.com/access_token?client_id=6481880&client_secret=VgrTmwquRc6yaCCPiHc1&redirect_uri=http://mysite.ru&code={code}'
 profile_request = 'https://api.vk.com/method/users.get?user_ids={user_id}&v=5.75'
 friends_request = 'https://api.vk.com/method/friends.get?user_id={user_id}&order=name&count=5&offset=2&fields=name&name_case=nom&v=5.75'
 
@@ -12,15 +16,22 @@ def sendRequestToApiVK(request, access_token):
     response = urllib.request.urlopen(request + '&access_token=' + access_token + '&v=V')
     return decodeResponse(response)
 
-def decodeResponse(response):
+def decodeResponse(response, use_response=True):
     """преобразует объект response в json"""
     json_response = json.loads(response.read().decode())
-    return json_response['response']
+    if use_response:
+        return json_response['response']
+    return json_response
 
-# Create your views here.
 def index(request):
     template = loader.get_template('mainpage/authpage.html')
     return HttpResponse(template.render())
+
+def makeuser(request):
+    code = request.GET.get('code')
+    response = urllib.request.urlopen(token_request.format(code=code))
+    json_response = json.loads(response.read().decode())
+    return HttpResponse(str(json_response))
 
 def userpage(request):
     user_id = request.GET['user_id']
