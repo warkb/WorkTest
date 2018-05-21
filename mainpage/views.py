@@ -25,21 +25,21 @@ def makeuser(request):
     code = request.GET.get('code')
     response = requests.get(token_request.format(code=code))
     json_response = response.json()
-    user_id = json_response.GET['user_id']
-    access_token = json_response.GET['access_token']
+    user_id = json_response['user_id']
+    access_token = json_response['access_token']
 
     profileDict = sendRequestToApiVK(profile_request.format(user_id=user_id),
         access_token)[0]
-    username = profileDict[0]['first_name'] + ' ' + profileDict[0]['last_name']
-    friendsDict = sendRequestToApiVK(friends_request.format(user_id=user_id),
+    username = profileDict['first_name'] + ' ' + profileDict['last_name']
+    friends = sendRequestToApiVK(friends_request.format(user_id=user_id),
         access_token)
     friendsCSV = ','.join([friend['last_name'] + ' ' +
-        friend['first_name'] for friend in x])
+        friend['first_name'] for friend in friends])
 
-    newUser = User(username=username, userid=user_id, token=access_token, 
+    newUser = User(username=username, userid=user_id, token=access_token,
         friends=friendsCSV)
     newUser.save()
-    return HttpResponseRedirect('/userpage/' + user_id)
+    return HttpResponseRedirect('/userpage/%s' % user_id)
 
 def userpage(request, userid):
     # magic
@@ -50,7 +50,7 @@ def userpage(request, userid):
     }
     template = loader.get_template('mainpage/hello.html')
     return HttpResponse(template.render(context))
-    
+
 def clearRequest(request):
     # передать запрос как он есть
     print(request.get_full_path())
