@@ -1,5 +1,6 @@
 import json
 import requests
+from .models import User
 from django.template import RequestContext, loader
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import redirect
@@ -35,12 +36,20 @@ def makeuser(request):
     friendsCSV = ','.join([friend['last_name'] + ' ' +
         friend['first_name'] for friend in x])
 
-    return HttpResponse('user_id: %s<br>token: %s<br>username: %s<br>friends: %s<br>' % (user_id,
-        access_token, username, friendsCSV))
+    newUser = User(username=username, userid=user_id, token=access_token, 
+        friends=friendsCSV)
+    newUser.save()
+    return HttpResponseRedirect('/userpage/' + user_id)
 
-def userpage(request):
+def userpage(request, userid):
     # magic
-    pass
+    user = list(User.objects.filter(userid=userid))[0]
+    context = {
+        'username': user.username,
+        'friendlist': user.friends.split(',')
+    }
+    template = loader.get_template('mainpage/hello.html')
+    return HttpResponse(template.render(context))
     
 def clearRequest(request):
     # передать запрос как он есть
