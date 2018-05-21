@@ -1,5 +1,4 @@
 import json
-import urllib
 import requests
 from django.template import RequestContext, loader
 from django.http import HttpResponse, HttpResponseRedirect
@@ -14,15 +13,8 @@ friends_request = 'https://api.vk.com/method/friends.get?user_id={user_id}&order
 
 def sendRequestToApiVK(request, access_token):
     """отправляет запрос request к api vk, возвращает результат запроса"""
-    response = urllib.request.urlopen(request + '&access_token=' + access_token + '&v=V')
-    return decodeResponse(response)
-
-def decodeResponse(response, use_response=True):
-    """преобразует объект response в json"""
-    json_response = json.loads(response.read().decode())
-    if use_response:
-        return json_response['response']
-    return json_response
+    response = requests.get(request + '&access_token=' + access_token + '&v=V')
+    return response.json()['response']
 
 def index(request):
     template = loader.get_template('mainpage/authpage.html')
@@ -32,11 +24,9 @@ def makeuser(request):
     code = request.GET.get('code')
     response = requests.get(token_request.format(code=code))
     json_response = response.json()
-    return HttpResponse(str(json_response))
+    user_id = json_response.GET['user_id']
+    access_token = json_response.GET['access_token']
 
-def userpage(request):
-    user_id = request.GET['user_id']
-    access_token = request.GET['access_token']
     profileDict = sendRequestToApiVK(profile_request.format(user_id=user_id),
         access_token)[0]
     username = profileDict[0]['first_name'] + ' ' + profileDict[0]['last_name']
@@ -48,6 +38,10 @@ def userpage(request):
     return HttpResponse('user_id: %s<br>token: %s<br>username: %s<br>friends: %s<br>' % (user_id,
         access_token, username, friendsCSV))
 
+def userpage(request):
+    # magic
+    pass
+    
 def clearRequest(request):
     # передать запрос как он есть
     print(request.get_full_path())
