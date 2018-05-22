@@ -7,6 +7,7 @@ from django.shortcuts import redirect
 
 app_id = '6481880'
 app_secret = 'VgrTmwquRc6yaCCPiHc1'
+cookie_name = 'warid'
 
 token_request = 'https://oauth.vk.com/access_token?client_id=6481880&client_secret=VgrTmwquRc6yaCCPiHc1&redirect_uri=http://warkb.pythonanywhere.com/makeuser&code={code}'
 profile_request = 'https://api.vk.com/method/users.get?user_ids={user_id}&v=5.75'
@@ -18,44 +19,42 @@ def sendRequestToApiVK(request, access_token):
     return response.json()['response']
 
 def index(request):
+    """стартовая страница"""
+    if cookie_name in request.COOKIES:
+        # пользователь есть
+        # берем его id из cookie
+        user_id = request.COOKIES.get(cookie_name)
+        return HttpResponseRedirect('/userpage/%s' % user_id)
+    # если дошли до этого момента, значит файла cookie нет
+    # предлагаем авторизоваться через вк
     template = loader.get_template('mainpage/authpage.html')
     return HttpResponse(template.render())
 
 def makeuser(request):
     """
-    проверяет куки, если они пусты, то создает нового пользователя.
-    В конце перенаправляет на страницу пользователя
+    создает нового пользователя и перенаправляет на страницу пользователя
     """
-    cookie_name = 'warid'
-    if cookie_name in request.COOKIE:
-        # пользователь есть
-        # берем его id из cookie
-        user_id = request.COOKIE.get(cookie_name)
-        return HttpResponseRedirect('/userpage/%s' % user_id)    
-    else:
-        # пользователя нет
-        # создаем его и запоминаем в cookie
-        code = request.GET.get('code')
-        responseVK = requests.get(token_request.format(code=code))
-        json_response = responseVK.json()
-        user_id = json_response['user_id']
-        access_token = json_response['access_token']
-        # делаем запрос к api вконтакте на имя человека и его друзей
-        profileDict = sendRequestToApiVK(profile_request.format(user_id=user_id),
-            access_token)[0]
-        username = profileDict['first_name'] + ' ' + profileDict['last_name']
-        friends = sendRequestToApiVK(friends_request.format(user_id=user_id),
-            access_token)
-        friendsCSV = ','.join([friend['last_name'] + ' ' +
-            friend['first_name'] for friend in friends])
-        # сохраняем пользователя в базе данных
-        newUser = User(username=username, userid=user_id, token=access_token,
-            friends=friendsCSV)
-        newUser.save()
-        # запоминаем id пользователя в куках
-        response = HttpResponseRedirect('/userpage/%s' % user_id)
-        response.set_cookie(cookie_name, user_id)
-        return response
+    code = request.GET.get('code')
+    responseVK = requests.get(token_request.format(code=code))
+    json_response = responseVK.json()
+    user_id = json_response['user_id']
+    access_token = json_response['access_token']
+    # делаем запрос к api вконтакте на имя человека и его друзей
+    profileDict = sendRequestToApiVK(profile_request.format(user_id=user_id),
+        access_token)[0]
+    username = profileDict['first_name'] + ' ' + profileDict['last_name']
+    friends = sendRequestToApiVK(friends_request.format(user_id=user_id),
+        access_token)
+    friendsCSV = ','.join([friend['last_name'] + ' ' +
+        friend['first_name'] for friend in friends])
+    # сохраняем пользователя в базе данных
+    newUser = User(username=username, userid=user_id, token=access_token,
+        friends=friendsCSV)
+    newUser.save()
+    # запоминаем id пользователя в куках
+    response = HttpResponseRedirect('/userpage/%s' % user_id)
+    response.set_cookie(cookie_name, user_id)
+    return response
 
 def userpage(request, userid):
     """отображает страницу пользователя"""

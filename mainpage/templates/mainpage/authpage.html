@@ -5,26 +5,31 @@
 	<meta charset="utf-8">
 </head>
 <body>
-<!-- Прописать через шаблон id -->
-<a href="https://oauth.vk.com/authorize?client_id=6481880&display=page&redirect_uri=http://warkb.pythonanywhere.com/makeuser&scope=friends&response_type=code&v=5.75">goauth</a>
+    <div id="additionaldiv">
+        <a href="https://oauth.vk.com/authorize?client_id=6481880&display=page&redirect_uri=http://warkb.pythonanywhere.com/makeuser&scope=friends&response_type=code&v=5.75">
+            <div id="authbutton">
+                Авторизоваться через VK
+            </div>
+        </a>
+    </div>
 <style>
     body {
         text-align: center;
     }
-    
+
     #additionaldiv {
         display: inline-block;
         vertical-align: middle;
         margin-top: 50vh;
         transform: translateY(-100%);
     }
-    
+
 
     #authbutton {
         width: 150px;
         height: 40px;
         padding: 10px;
-        
+
         /*украшения*/
         color: white;
         background-color: #4A76A8;
@@ -36,6 +41,7 @@
     a {
         text-decoration: none;
         vertical-align: middle;
+        color: white;
     }
 </style>
 </body>
