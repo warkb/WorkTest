@@ -67,7 +67,7 @@ def userpage(request, userid):
     httpResponse = HttpResponse(template.render(context))
     if not cookie_name in request.COOKIES:
         httpResponse.set_cookie(cookie_name, user_id)
-    return HttpResponse(template.render(context))
+    return httpResponse
 
 def clearRequest(request):
     # передать запрос как он есть
