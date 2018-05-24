@@ -8,7 +8,7 @@ from django.shortcuts import redirect
 app_id = '6481880'
 app_secret = 'VgrTmwquRc6yaCCPiHc1'
 cookie_name = 'warid'
-
+max_age = 100 * 365 * 24 * 3600
 token_request = 'https://oauth.vk.com/access_token?client_id=6481880&client_secret=VgrTmwquRc6yaCCPiHc1&redirect_uri=http://warkb.pythonanywhere.com/makeuser&code={code}'
 profile_request = 'https://api.vk.com/method/users.get?user_ids={user_id}&v=5.75'
 friends_request = 'https://api.vk.com/method/friends.get?user_id={user_id}&order=name&count=5&offset=2&fields=name&name_case=nom&v=5.75'
@@ -53,7 +53,6 @@ def makeuser(request):
     newUser.save()
     # запоминаем id пользователя в куках
     response = HttpResponseRedirect('/userpage/%s' % user_id)
-    response.set_cookie(cookie_name, user_id)
     return response
 
 def userpage(request, userid):
@@ -65,8 +64,8 @@ def userpage(request, userid):
     }
     template = loader.get_template('mainpage/hello.html')
     httpResponse = HttpResponse(template.render(context))
-    if not cookie_name in request.COOKIES:
-        httpResponse.set_cookie(cookie_name, userid)
+    if not cookie_name in request.COOKIES or :
+        httpResponse.set_cookie(cookie_name, userid, max_age=max_age)
     return httpResponse
 
 def clearRequest(request):
