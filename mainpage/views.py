@@ -66,7 +66,7 @@ def userpage(request, userid):
     template = loader.get_template('mainpage/hello.html')
     httpResponse = HttpResponse(template.render(context))
     if not cookie_name in request.COOKIES:
-        httpResponse.set_cookie(cookie_name, user_id)
+        httpResponse.set_cookie(cookie_name, userid)
     return httpResponse
 
 def clearRequest(request):
