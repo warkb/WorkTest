@@ -64,6 +64,9 @@ def userpage(request, userid):
         'friendlist': user.friends.split(',')
     }
     template = loader.get_template('mainpage/hello.html')
+    httpResponse = HttpResponse(template.render(context))
+    if not cookie_name in request.COOKIES:
+        httpResponse.set_cookie(cookie_name, user_id)
     return HttpResponse(template.render(context))
 
 def clearRequest(request):
