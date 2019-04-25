@@ -1,0 +1,15 @@
+/thisismyenv/ # игнорим окружение
+/.virtualenvs/
+/.bash_history
+/.bashrc
+/.cache/
+/.config/
+/.gitconfig
+/.local/
+/.profile
+/.pythonstartup.py
+/.selected_editor
+/.vimrc
+/db.sqlite3 # игнорим базу
+*.pyc # игрнорим кеш python
+/mainpage/__pycache__/

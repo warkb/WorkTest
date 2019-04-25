@@ -1,0 +1,153 @@
+$mainColor: #f97300;
+
+.navbar{
+ background:$mainColor;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+
+}
+
+.nav-link:hover{
+ background: #f4f4f4;
+ color: $mainColor;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#343a40!important
+}
+
+.header{
+    background-image: url('../img/background_nature.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244,244,244,0.69);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.decription h1{
+    color: $mainColor !important;
+}
+.description p{
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid $mainColor;
+    background: $mainColor;
+    color: #fff;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position:  relative;
+}
+
+.about h1{
+    color: $mainColor;
+    margin: 2em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+
+.about .desc h3{
+    color: #10828c;
+}
+
+.about .desc p{
+    line-height: 2;
+    color: #888;
+}
+
+%base-page{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;    
+}
+
+%base-h1{
+    color: $mainColor;
+    margin: 2em;
+}
+
+/*Portfolio*/
+.portfolio{
+    @extend %base-page;
+}
+
+.portfolio h1{
+    @extend %base-h1;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+/*contacts*/
+.contacts {
+    @extend %base-page;
+}
+.contacts h1 {
+    @extend %base-h1;
+}
+
+.contacts img {
+  width: 100%;
+}
+
+.contacts a img:hover {
+  transform: scale(1.2) !important;
+  transition: transform 0.15s linear !important; 
+}
